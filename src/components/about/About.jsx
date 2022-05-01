@@ -25,9 +25,9 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Provident odit perferendis reiciendis quod quis reprehenderit nisi doloribus quos debitis porro 
-            nostrum voluptatibus velit dolorum atque ut maiores exercitationem, mollitia ipsam.
+            Front-end Developer with 2 years of experience developing,
+            translated design team's UX wireframes and mockups into responsive,
+            interactive features using HTML, CSS, Javascript, React, Angular
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

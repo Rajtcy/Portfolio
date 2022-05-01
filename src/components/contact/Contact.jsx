@@ -1,22 +1,39 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { BsWhatsapp } from 'react-icons/bs';
 import './contact.css';
 
+toast.configure()
 const Contact = () => {
   const form = useRef();
+
+  // success toast 
+  const notifySuccess = () => toast.success("Message sent successfully", {
+    position: toast.POSITION.TOP_RIGHT,
+    autoClose: 3000
+  });
+
+  // error toast 
+  const notifyError = () => toast.error("Something went wrong", {
+    position: toast.POSITION.TOP_RIGHT,
+    autoClose: 3000
+  });
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_wnbjjwe', 'template_1czwiny', form.current, 'PhhYgYHKVhxo-yFo5')
-      // .then((result) => {
-      //   console.log(result.text);
-      // }, (error) => {
-      //   console.log(error.text);
-      // });
-      e.target.reset()
+      .then(() => {
+        notifySuccess()
+      }, (error) => {
+        notifyError(error)
+      });
+
+    // reset form field after submitting
+    e.target.reset()
   };
 
   return (
@@ -36,7 +53,8 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+91 8870593339</h5>
-            <a href="https://api.whatsapp.com/send?phone=8870593339" target="_blank" rel="noreferrer">Send a message</a>
+            {/* <a href="https://api.whatsapp.com/send?phone=8870593339" target="_blank" rel="noreferrer">Send a message</a> */}
+            <a href="https://wa.me/918870593339/?text=Hi" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
@@ -45,6 +63,7 @@ const Contact = () => {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
+          <ToastContainer />
         </form>
       </div>
     </section>
