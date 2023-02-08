@@ -129,6 +129,7 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 /*  ------ MEDIA QUERIES ( MEDIUM DEVICES ) ----- */

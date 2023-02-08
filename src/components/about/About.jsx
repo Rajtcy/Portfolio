@@ -27,7 +27,7 @@ const About = () => {
           <p>
             Front-end Developer with 2 years of experience developing,
             translated design team's UX wireframes and mockups into responsive,
-            interactive features using HTML, CSS, Javascript, React, Angular
+            interactive features using HTML, CSS, Javascript, Reactjs
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

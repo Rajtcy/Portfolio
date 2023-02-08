@@ -59,9 +59,9 @@ const Contact = () => {
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+          <input type="text" name='name' placeholder='Full Name' required />
+          <input type="email" name='email' placeholder='Email' required />
+          <textarea name="message" rows="10" placeholder='Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
           <ToastContainer />
         </form>

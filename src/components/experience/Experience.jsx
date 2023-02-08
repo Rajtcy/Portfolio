@@ -40,12 +40,12 @@ const Experience = () => {
                 <h4>REACT</h4>
               </div>
             </article>
-            <article className='experience__details'>
+            {/* <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>ANGULAR</h4>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
         <div className='experience__currently-learning'>
