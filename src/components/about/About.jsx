@@ -25,8 +25,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Overall 4 years of experience with 2 years as DevOps Engineer with
-            AWS Cloud Platform and 2 years as Reactjs Developer. As a DevOps
+            Overall 4 years of experience with 3 years as DevOps Engineer with
+            AWS Cloud Platform and 1 year as Reactjs Developer. As a DevOps
             Engineer, proficient in AWS, Git, GitHub Actions, Jenkins, Docker,
             Shell Scripting and sound knowledge in Kubernetes.
           </p>
