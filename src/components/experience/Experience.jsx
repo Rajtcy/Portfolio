@@ -15,7 +15,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>CI/CD Pipeline</h4>
+                <h4>CI/CD</h4>
               </div>
             </article>
             <article className="experience__details">
@@ -27,12 +27,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Shell Scripting</h4>
+                <h4>Kubernetes</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Reactjs</h4>
+              <div>
+                <h4>Shell Scripting</h4>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -49,24 +51,34 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Git, GitHub Actions</h4>
+                <h4>Git</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Recoiljs</h4>
+                <h4>GitHub Actions</h4>
               </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>GitLab</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>Reactjs</h4>
             </article>
           </div>
         </div>
         <div className="experience__currently-learning">
-          <h3>Additional Learning</h3>
+          <h3>Knowledge</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Kubernetes</h4>
+                <h4>Ansible</h4>
               </div>
             </article>
             <article className="experience__details">

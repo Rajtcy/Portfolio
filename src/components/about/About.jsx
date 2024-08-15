@@ -1,6 +1,6 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
-import me from "../../assets/me.JPG";
+import me from "../../assets/me.jpg";
 import "./about.css";
 
 const About = () => {
@@ -21,14 +21,15 @@ const About = () => {
             <article className="about__card">
               <FaAward />
               <h5>Experience</h5>
-              <small>4 years</small>
+              <small>4+ years</small>
             </article>
           </div>
           <p>
-            Overall 4 years of experience with 3 years as DevOps Engineer with
-            AWS Cloud Platform and 1 year as Reactjs Developer. As a DevOps
-            Engineer, proficient in AWS, Git, GitHub Actions, Jenkins, Docker,
-            Shell Scripting and sound knowledge in Kubernetes.
+            Overall 4.5 years of experience, including 3.5 years specializing in
+            DevOps, AWS Cloud Platform and 1 year as a ReactJs Developer.
+            Proficient in some AWS services, CI/CD pipelines, Docker, Jenkins,
+            Kubernetes and Shell Scripting and possesses sound knowledge in
+            Ansible.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
