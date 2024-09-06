@@ -25,11 +25,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Overall 4.5 years of experience, including 3.5 years specializing in
+            Overall 4.6 years of experience, including 3.6 years specializing in
             DevOps, AWS Cloud Platform and 1 year as a ReactJs Developer.
-            Proficient in some AWS services, CI/CD pipelines, Docker, Jenkins,
-            Kubernetes and Shell Scripting and possesses sound knowledge in
-            Ansible.
+            Proficient in AWS, Azure, CI/CD pipelines, Docker, Jenkins,
+            Terraform, Kubernetes, Shell Scripting and possesses sound knowledge
+            in Ansible.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
