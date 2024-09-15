@@ -5,9 +5,9 @@ name: release-mvp-v1.1 CI
 
 on:
   push:
-   branches: [ "release-mvp-v1.1" ]
+   branches: ["main"]
   pull_request:
-    branches: ["release-mvp-v1.1"]
+    branches: ["main"]
 
 jobs:
   build:
